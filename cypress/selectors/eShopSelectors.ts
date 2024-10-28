@@ -1,0 +1,16 @@
+export const eshopSelectors = {
+  mostExpensiveCategory: '[data-lb-name="Nejdražší"]',
+  mostExpensiveCategoryUrlFilter: "/televize.html/filter/o:4",
+  productList: '[class="product-box-list"]',
+  pathTV: "/televize.html",
+  pathCart: "/kosik",
+  pathDelivery: "/doprava-platba",
+  addedToCartModal: '[class="basket-product-add"]',
+  buttonAddToCard: 'button[data-gtm-event="add_to_cart"]',
+  closeModalButton: 'button[data-dismiss="modal"]',
+  homepageUserHeader: "#snippet--header-user",
+  cartHref: '[class="head-cart header-menu-item"]',
+  cartContinueDoprava: 'a[href="/kosik/doprava-platba"]',
+  deliveryBasketOptions: "#basket-transport-options",
+  deliveryDropdown: "#basket-pickup-select-region",
+};
